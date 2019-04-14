@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teknoloji | Haberin Gerçek Yüzü</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+ 	<script src="../js/popper.min.js"></script>
+ 	<script src="../js/bootstrap.min.js"></script>
+ 	<script src="../js/main1.js"></script> 
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<!-- sm none -->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md text-white fixed-top d-none d-sm-none d-md-block"> 
+		<div class="container py-2" id="kucul" style="opacity: 0.9">
+			<a href="../index.html" class="navbar-brand"><img src="../img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>		
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Kayıt ol</a>
+					</li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white ">Giriş Yap</a>
+					</li>
+					<li class="nav-item px-3"> <hr></li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Künye</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><!-- sm none -->
+
+	<!-- sm block -->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md text-white fixed-top d-sm-block d-md-none"> 
+
+		<div class="container py-2" style="opacity: 0.9">
+
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-link" aria-controls="navbar-link">
+				Katagori
+			</button>
+			<a href="../index.html" class="navbar-brand"><img src="../img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>		
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- sm nav -->
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Kayıt ol</a>
+					</li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white ">Giriş Yap</a>
+					</li>
+					<li class="nav-item px-3"> <hr></li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Künye</a>
+					</li>
+				</ul>
+			</div>
+
+
+
+		</div>
+	</nav>	<!-- sm block -->
+
+	<!-- md katagori -->
+			<div class="collapse navbar-collapse fixed-top bg-danger d-md-none" id="navbar-link" style="z-index: 5; top: 82px;">
+				<ul class="navbar-nav " id="linkler">
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-warning border-3" title="yasam">
+						<a href="yasam.html" class="nav-link text-white pl-3">Yaşam</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-dark border-3" title="gundem">
+						<a href="gundem.html" class="nav-link text-white pl-3" >Gündem</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-primary border-3" title="emlak">
+						<a href="emlak.html" class="nav-link text-white pl-3" >Emlak</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-secondary border-3" title="teknoloji">
+						<a href="teknoloji.html" class="nav-link text-white pl-3">Teknoloji</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-3" title="spor">
+						<a href="spor.html" class="nav-link text-white pl-3">Spor</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-info border-3" title="egitim">
+						<a href="egitim.html" class="nav-link text-white pl-3">Eğitim</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-success border-3" title="saglik">
+						<a href="saglik.html" class="nav-link text-white pl-3">Sağlık</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-danger border-3" title="siyaset">
+						<a href="siyaset.html" class="nav-link text-white pl-3">Siyaset</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-3" title="dunya">
+						<a href="dunya.html" class="nav-link text-white pl-3">Dünya</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+
+			<!-- sm none -->
+	<nav class="navbar navbar-light navbar-expand-md bg-danger text-white p-0  d-none d-sm-none d-md-block" style="margin-top: 82px;" id="s">
+		<button type="button" class="navbar-toggler bg-warning fixed-top" data-toggle="collapse" data-target="#navbar-link" aria-controls="navbar-link" style="margin-top: 82px; z-index: 5" id="buton">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		<div class="container">
+			<div class="collapse navbar-collapse justify-content-center" id="navbar-link">
+				<ul class="navbar-nav " id="linkler">
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-warning border-3" title="yasam">
+						<a href="yasam.html" class="nav-link text-white pl-3">Yaşam</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-dark border-3" title="gundem">
+						<a href="gundem.html" class="nav-link text-white pl-3" >Gündem</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-primary border-3" title="emlak">
+						<a href="emlak.html" class="nav-link text-white pl-3" >Emlak</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-secondary border-3" title="teknoloji">
+						<a href="teknoloji.html" class="nav-link text-white pl-3">Teknoloji</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-3" title="spor">
+						<a href="spor.html" class="nav-link text-white pl-3">Spor</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-info border-3" title="egitim">
+						<a href="egitim.html" class="nav-link text-white pl-3">Eğitim</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-success border-3" title="saglik">
+						<a href="saglik.html" class="nav-link text-white pl-3">Sağlık</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-danger border-3" title="siyaset">
+						<a href="siyaset.html" class="nav-link text-white pl-3">Siyaset</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-3" title="dunya">
+						<a href="dunya.html" class="nav-link text-white pl-3">Dünya</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../img/iconfinder_search_322497.png" class="mt-3 ml-3" onclick="ac()">
+						</a>
+						<div class="search">
+							<input type="text" name="search" placeholder="Arama...">
+							<img src="https://img.icons8.com/ios/50/000000/delete-sign.png" id="x" onclick="kapat()">
+						</div>
+					</li>
+				
+				</ul>
+
+			</div>
+		</div>
+	</nav><!-- md katagori -->
+
+
+
+
+<div class="container">
+	<div class="d-sm-block d-md-none" >
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+
+	<div class="d-none d-sm-none d-md-block">
+		<br>
+	</div>
+
+	<div class="row tab-content"><!--body row-->
+		<div class="col-md-9 tab-pane active" id="sayfa1"><!-- haber bölümü sayfa1-->
+			<div class="row">
+				<div>
+					
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?1">
+					<img src="../haberimg/teknoloji/1.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text">
+								Siber güvenlikte yerli yazılım için
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								 iş birliği
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?2">
+					<img src="../haberimg/teknoloji/2.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text">
+								Yapay zeka robotlar 'Milli Mücadele
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								 yolunu' takip ediyor
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?3">
+					<img src="../haberimg/teknoloji/3.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text" style="bottom: 70px;">
+								Önceliğimiz yüksek teknoloji ürünleri
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?4">
+					<img src="../haberimg/teknoloji/4.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text" style="bottom: 70px;">
+								'Mavi Balina ve Momo dünyada 
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								barışçıl yaşamı sabote ediyor'
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?5">
+					<img src="../haberimg/teknoloji/5.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text" style="bottom: 70px;">
+								Öğrenciler 8 saatte robot yapıp yarıştırıyor 
+							</span>
+							
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?6">
+					<img src="../haberimg/teknoloji/6.jpg" style="width: 100%; position: relative;">
+					<h2><span class="haber-text">
+								Geleceğin teknolojileri Çin'de görücüye 
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								çıkıyor 
+							</span>
+					</h2>
+					</a>
+				</div>
+
+			</div>
+
+
+		</div><!-- haber bölümü sayfa1-->
+
+		<div class="col-md-9 tab-pane" id="sayfa2"><!-- haber bölümü sayfa2-->
+			<div class="row">
+				<div>
+					
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?7">
+					<img src="../haberimg/teknoloji/7.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text">
+								İsrail'in Ay'a insansız uzay aracı 
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								indirme girişimi başarısız oldu
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?8">
+					<img src="../haberimg/teknoloji/8.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text">
+								Sabancı Üniversitesi ile Merck arasında
+							</span>
+							<span class="haber-text-2" style="display: block;" >
+								 'biyoteknolojik' iş birliği 
+							</span>
+					</h2>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<a href="habericerik.html?teknoloji?9">
+					<img src="../haberimg/teknoloji/9.jpg" style="width: 100%; position: relative;">
+					<h2>
+							<span class="haber-text" style="bottom: 70px;">
+								Yolların onarımında teknolojiyle tasarruf
+							</span>
+							
+					</h2>
+					</a>
+				</div>
+								
+
+			</div>
+
+
+		</div><!-- haber bölümü sayfa2 -->
+
+
+		<div class="col-md-3 mt-2" >
+			<div class="encokokunan">
+				<h5 style="text-align: center;">En Çok Okunan Haberler </h5>
+				<table class="table">
+					<tr>
+						<td style="width:70%; ">
+							<a href="habericerik.html?egitim?2">"Yükseköğretimde Dijital Dönüşüm Projesi"</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="../haberimg/egitim/2.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr>
+						<td style="width:70%; ">
+							<a href="habericerik.html?egitim?11">"40 dakika ders, 40 dakika teneffüs"</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="../haberimg/egitim/11.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr>
+						<td style="width:70%; ">
+							<a href="habericerik.html?dunya?3">Dicle Nehrinde Ceset</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="../haberimg/dunya/3.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr style="border-bottom: 1px solid #dee2e6">
+						<td style="width:70%; ">
+							<a href="habericerik.html?dunya?5">Yunanistan Başkanı Makedonyayı Ziyaret Etti</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="../haberimg/dunya/5.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+				</table>
+				<div class="mt-5">
+					<h5 style="text-align: center;">Döviz</h5>
+				</div>
+				<table class="table" style="font-size: 13px">
+
+					<tr>
+						<td style="width:40%; ">
+							GRAM ALTIN
+						</td>
+						<td style="width:60%;">
+							231,8907 <span style="color: green">% 0,15 &#9650</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							DOLAR
+						</td>
+						<td style="width:60%; ">
+							5,5807 <span style="color: green;">% 0,58 &#9650</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							EURO
+						</td>
+						<td style="width:60%; ">
+							6,2294 <span style="color: red;">% -0,63 &#9660</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							BIST 100
+						</td>
+						<td style="width:60%; ">
+							93.784 <span style="color: green">% 1,8062 &#9650</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+	
+
+	</div><!--body row-->
+
+			<!-- Sayfalar -->
+	<div class="row">
+			<div class="col-md-12">
+				<ul class="nav-pills nav justify-content-center">
+					<li class="nav-item">
+						<a href="#sayfa1" onclick="smoothScroll(document.getElementById('linkler'))" class="nav-link active" data-toggle="tab">1</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sayfa2" onclick="smoothScroll(document.getElementById('linkler'))" class="nav-link" data-toggle="tab">2</a>
+					</li>
+				</ul>
+		 	</div>
+	</div> <!-- Sayfalar -->
+
+
+</div>
+
+
+
+
+<!--Footer Links-->
+<div class="bg-dark text-light mt-4" style="">
+	
+	<div class="container  mb-0 text-center text-md-left">
+	    <div class="row">
+
+	        <!--First column-->
+	        <div class=" col-lg-4 col-xl-4 mb-4 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>Hakkımızda</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+	            <p>Bizim için asıl önemli olan yapıcı, değerlere saygılı, din, dil, ırk ayrımı gözetmeden objektif ve yorumsuz haber vermektir. Yorumları uzmanlarından seyirciye aktarabilmektir. Tarafsız ve ilkeli habercilik, en önemlisi doğru haberdir.</p>
+	        </div>
+	        <!--/.First column-->
+
+	        <!--Second column-->
+	        <div class=" col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>Baglantılar</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+	            <p>
+	                <a href="#!">Gizlilik İlkeleri</a>
+	            </p>
+	            <p>
+	                <a href="#!">Kullanım Şartları</a>
+	            </p>
+	            <p>
+	                <a href="#!">Bilgi Toplumu Hizmetleri</a>
+	            </p>
+	            <p>
+	                <a href="#!">İlkeler</a>
+	            </p>
+	        </div>
+	        <!--/.Second column-->
+
+
+	        <!--Fourth column-->
+	        <div class=" col-lg-3 col-xl-3 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>iletişim</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+	            <p>
+	                <i class="fas fa-home  mr-3"></i> Düzce,Türkiye</p>
+	            <p>
+	                <i class="fas fa-envelope mr-3"></i> info@webecho.com</p>
+	            <p>
+	                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+	            <p>
+	                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+	        </div>
+	        <!--/.Fourth column-->
+
+	    </div>
+	</div>
+</div>
+<!--/.Footer Links-->
+
+</body>
+</html>

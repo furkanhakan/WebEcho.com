@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebEcho | Haberin Gerçek Yüzü</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery.min.js"></script>
+ 	<script src="js/popper.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main1.js"></script> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<!-- sm none -->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md text-white fixed-top d-none d-sm-none d-md-block"> 
+		<div class="container py-2" id="kucul" style="opacity: 0.9">
+			<a href="index.html" class="navbar-brand"><img src="img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>		
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Kayıt ol</a>
+					</li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white ">Giriş Yap</a>
+					</li>
+					<li class="nav-item px-3"> <hr></li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Künye</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><!-- sm none -->
+
+	<!-- sm block -->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md text-white fixed-top d-sm-block d-md-none"> 
+
+		<div class="container py-2" style="opacity: 0.9">
+
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-link" aria-controls="navbar-link">
+				Katagori
+			</button>
+			<a href="index.html" class="navbar-brand"><img src="img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>		
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- sm nav -->
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Kayıt ol</a>
+					</li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white ">Giriş Yap</a>
+					</li>
+					<li class="nav-item px-3"> <hr></li>
+					<li class="nav-item px-3">
+						<a href="#" class="nav-link text-white">Künye</a>
+					</li>
+				</ul>
+			</div>
+
+
+
+		</div>
+	</nav>	<!-- sm block -->
+
+	<!-- md katagori -->
+			<div class="collapse navbar-collapse fixed-top bg-danger d-md-none" id="navbar-link" style="z-index: 5; top: 82px;">
+				<ul class="navbar-nav " id="linkler">
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-warning border-3" title="yasam">
+						<a href="haber/yasam.html" class="nav-link text-white pl-3">Yaşam</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-dark border-3" title="gundem">
+						<a href="haber/gundem.html" class="nav-link text-white pl-3" >Gündem</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-primary border-3" title="emlak">
+						<a href="haber/emlak.html" class="nav-link text-white pl-3" >Emlak</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-secondary border-3" title="teknoloji">
+						<a href="haber/teknoloji.html" class="nav-link text-white pl-3">Teknoloji</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-3" title="spor">
+						<a href="haber/spor.html" class="nav-link text-white pl-3">Spor</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-info border-3" title="egitim">
+						<a href="haber/egitim.html" class="nav-link text-white pl-3">Eğitim</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-success border-3" title="saglik">
+						<a href="haber/saglik.html" class="nav-link text-white pl-3">Sağlık</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-danger border-3" title="siyaset">
+						<a href="haber/siyaset.html" class="nav-link text-white pl-3">Siyaset</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-3" title="dunya">
+						<a href="haber/dunya.html" class="nav-link text-white pl-3">Dünya</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+
+			<!-- sm none -->
+	<nav class="navbar navbar-light navbar-expand-md bg-danger text-white p-0  d-none d-sm-none d-md-block" style="margin-top: 82px;" id="s">
+		<button type="button" class="navbar-toggler bg-warning fixed-top" data-toggle="collapse" data-target="#navbar-link" aria-controls="navbar-link" style="margin-top: 82px; z-index: 5" id="buton">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		<div class="container">
+			<div class="collapse navbar-collapse justify-content-center" id="navbar-link">
+				<ul class="navbar-nav " id="linkler">
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-warning border-3" title="yasam">
+						<a href="haber/yasam.html" class="nav-link text-white pl-3">Yaşam</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-dark border-3" title="gundem">
+						<a href="haber/gundem.html" class="nav-link text-white pl-3" >Gündem</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-primary border-3" title="emlak">
+						<a href="haber/emlak.html" class="nav-link text-white pl-3" >Emlak</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-secondary border-3" title="teknoloji">
+						<a href="haber/teknoloji.html" class="nav-link text-white pl-3">Teknoloji</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-3" title="spor">
+						<a href="haber/spor.html" class="nav-link text-white pl-3">Spor</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-info border-3" title="egitim">
+						<a href="haber/egitim.html" class="nav-link text-white pl-3">Eğitim</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-success border-3" title="saglik">
+						<a href="haber/saglik.html" class="nav-link text-white pl-3">Sağlık</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-bottom border-danger border-3" title="siyaset">
+						<a href="haber/siyaset.html" class="nav-link text-white pl-3">Siyaset</a>
+					</li>
+					<li class="nav-item font-weight-bold navbar-text pr-2 border-3" title="dunya">
+						<a href="haber/dunya.html" class="nav-link text-white pl-3">Dünya</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/iconfinder_search_322497.png" class="mt-3 ml-3" onclick="ac()">
+						</a>
+						<div class="search">
+							<input type="text" name="search" placeholder="Arama...">
+							<img src="https://img.icons8.com/ios/50/000000/delete-sign.png" id="x" onclick="kapat()">
+						</div>
+					</li>
+				
+				</ul>
+
+			</div>
+		</div>
+	</nav><!-- md katagori -->
+
+
+
+<div class="container">
+	<div class="d-sm-block d-md-none" >
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+	<!-- Haber Slide -->
+	<div class="d-none d-sm-none d-md-block" >
+		<br>
+	</div>
+	<div class="haber-slides" id="slides">
+		<div class="mySlides fade" style="display: block; opacity: 1;"><a href="haber/habericerik.html?spor?7"> <img src="haberimg/spor/7.jpg" style="width: 100%;"> </a></div>
+		<div class="mySlides fade"><a href="haber/habericerik.html?dunya?2"> <img src="haberimg/dunya/2.jpg" style="width: 100%;"></a></div>
+		<div class="mySlides fade"><a href="haber/habericerik.html?saglik?3"> <img src="haberimg/saglik/3.jpg" style="width: 100%;"> </a></div>
+		
+		<a class="geri" onclick="ilerigeri(-1)">&#10094;</a>
+		<a class="ileri" onclick="ilerigeri(1)">&#10095;</a>
+	</div>	
+	<div style="text-align:center" class="dots">
+ 		<span class="dot active" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+ 		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<!-- Haber Slide -->
+
+
+	<div class="row ml-0 mr-0 mt-4 tab-content">  <!-- Body --> 
+		<div class="col-md-9 pl-0 tab-pane active " id="sayfa1"><!--haber kısmı id=sayfa1 -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?gundem?1" class="" title="" style="width: 100%;">
+						<div class="card" >
+							<div class="card-img">
+								<img src="haberimg/gundem/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/gundem.html" class="btn btn-danger " title="">Gündem</a>
+								<div class="card-text mt-2">Gümüşhanede çaldı Trabzonda yakalandı</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?gundem?3" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/gundem/3.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/gundem.html" class="btn btn-danger " title="">Gündem</a>
+								<div class="card-text mt-2">Van'da 6 erkeğe ait cansız beden bulundu</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?yasam?1" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/yasam/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/yasam.html" class="btn btn-danger " title="">Yaşam</a>
+								<div class="card-text mt-2">Nostalji meraklıları için 'gaz lambası' üretiyor</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?gundem?3" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/gundem/5.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/gundem.html" class="btn btn-danger " title="">Gündem</a>
+								<div class="card-text mt-2">Van Valiliği'nden dolandırıcılık uyarısı</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?spor?1" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/spor/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/spor.html" class="btn btn-danger " title="">Spor</a>
+								<div class="card-text mt-2">Mustafa Cengiz'den derbi yorumu</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?spor?5" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/spor/5.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/spor.html" class="btn btn-danger " title="">Spor</a>
+								<div class="card-text mt-2">Beşiktaş'ın Medipol Başakşehir 'kabusu'</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?teknoloji?6" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/teknoloji/6.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/teknoloji.html" class="btn btn-danger " title="">Teknoloji</a>
+								<div class="card-text mt-2">Geleceğin teknolojileri Çin'de görücüye çıkıyor</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?egitim?2" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/egitim/2.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/egitim.html" class="btn btn-danger " title="">Eğitim</a>
+								<div class="card-text mt-2">"Yükseköğretimde Dijital Dönüşüm Projesi"</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?yasam?3" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/yasam/3.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/yasam.html" class="btn btn-danger " title="">Yaşam</a>
+								<div class="card-text mt-2">Kırım Tatarları'nın at sevgisi nesilden nesile aktarılıyor.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+		</div> <!--haber kısmı id=sayfa1 -->
+
+
+		<div class="col-md-9 pl-0 tab-pane" id="sayfa2"><!--haber kısmı id=sayfa2 -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?siyaset?1" class="" title="" style="width: 100%;">
+						<div class="card" >
+							<div class="card-img">
+								<img src="haberimg/siyaset/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/siyaset.html" class="btn btn-danger " title="">Siyaset</a>
+								<div class="card-text mt-2">CHP İstanbul Belediye Başkan adayı Ekrem İmamoğlu'nun açıklamaları</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?saglik?3" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/saglik/3.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/saglik.html" class="btn btn-danger " title="">Sağlık</a>
+								<div class="card-text mt-2">Kanserle Savaş Haftası</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?emlak?1" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/emlak/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/emlak.html" class="btn btn-danger " title="">Emlak</a>
+								<div class="card-text mt-2">Yeni Ekonomi Program Açıklandı </div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?teknoloji?9" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/teknoloji/9.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/teknoloji.html" class="btn btn-danger " title="">Teknoloji</a>
+								<div class="card-text mt-2">Yolların onarımında teknolojiyle tasarruf</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?dunya?4" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/dunya/4.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/dunya.html" class="btn btn-danger " title="">Dünya</a>
+								<div class="card-text mt-2">Hamas Siyasi Büro Başkanı İsmail</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?egitim?13" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/egitim/13.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/egitim.html" class="btn btn-danger " title="">Eğitim</a>
+								<div class="card-text mt-2">Bakan Selçuk,temsilcilerle yemekte bir araya geldi.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?egitim?8" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/egitim/8.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/egitim.html" class="btn btn-danger " title="">Eğitim</a>
+								<div class="card-text mt-2">Yapay Zeka Stratejisi'nde son aşamaya gelindi</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?egitim?9" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/egitim/9.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/egitim.html" class="btn btn-danger " title="">Eğitim</a>
+								<div class="card-text mt-2">Feyzioğlu,genç avukatlara mesleki tecrübelerini anlattı.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?siyaset?5" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/siyaset/5.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/siyaset.html" class="btn btn-danger " title="">Siyaset</a>
+								<div class="card-text mt-2">Türkiye Komünist Partisi (TKP) kazandı.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+		</div> <!--haber kısmı id=sayfa2 -->
+
+		<div class="col-md-9 pl-0 tab-pane" id="sayfa3"><!--haber kısmı id=sayfa3 -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?saglik?2" class="" title="" style="width: 100%;">
+						<div class="card" >
+							<div class="card-img">
+								<img src="haberimg/saglik/2.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/saglik.html" class="btn btn-danger " title="">Sağlık</a>
+								<div class="card-text mt-2">Goldendar Sendromu nedeniyle doğumdan beri görme problemi yaşıyor.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?saglik?4" class="" title="" style="width: 100%;">
+						<div class="card" >
+							<div class="card-img">
+								<img src="haberimg/saglik/4.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/saglik.html" class="btn btn-danger " title="">Sağlık</a>
+								<div class="card-text mt-2">'Midem ağrıyor, soda içerim geçer' demeyin..</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?emlak?2" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/emlak/2.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/emlak.html" class="btn btn-danger " title="">Emlak</a>
+								<div class="card-text mt-2">Yeni Ekonomi Program Açıklandı </div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?siyaset?9" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/siyaset/9.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/siyaset.html" class="btn btn-danger " title="">Siyaset</a>
+								<div class="card-text mt-2">RTUK ceza kesti.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?spor?2" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/spor/2.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/spor.html" class="btn btn-danger " title="">Spor</a>
+								<div class="card-text mt-2">Terim ile Yanal'ın derbi karnesi</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?spor?10" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/spor/10.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/spor.html" class="btn btn-danger " title="">Spor</a>
+								<div class="card-text mt-2">Aslı Demir bronz madalya maçına çıkacak</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?teknoloji?1" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/teknoloji/1.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/teknoloji.html" class="btn btn-danger " title="">Teknoloji</a>
+								<div class="card-text mt-2">Siber güvenlikte yerli yazılım için iş birliği</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?egitim?7" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/egitim/7.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/egitim.html" class="btn btn-danger " title="">Eğitim</a>
+								<div class="card-text mt-2">e-YDS 2019/3sınavına başvurular 11 Nisana kadar alınacak.</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?emlak?4" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/emlak/4.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/emlak.html" class="btn btn-danger " title="">Emlak</a>
+								<div class="card-text mt-2">Yeni Ekonomi Program Açıklandı </div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> <!--haberler row -->
+		</div> <!--haber kısmı id=sayfa3 -->
+
+		<div class="col-md-9 pl-0 tab-pane" id="sayfa4"><!--haber kısmı id=sayfa4 -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?dunya?8" class="" title="" style="width: 100%;">
+						<div class="card" >
+							<div class="card-img">
+								<img src="haberimg/dunya/8.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/dunya.html" class="btn btn-danger " title="">Dünya</a>
+								<div class="card-text mt-2">Eski Cezayir Cumhurbaşkanı El-Emin Zerval konuştu</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?yasam?9" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/yasam/9.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/yasam.html" class="btn btn-danger " title="">Yaşam</a>
+								<div class="card-text mt-2">Aydınlı 16 yıldır inşaatta birlikte çalışıyor</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 mt-2" >
+					<a href="haber/habericerik.html?gundem?5" class="" title="" style="width: 100%;">
+						<div class="card">
+							<div class="card-img">
+								<img src="haberimg/gundem/5.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/gundem.html" class="btn btn-danger " title="">Gündem</a>
+								<div class="card-text mt-2">Van Valiliği'nden dolandırıcılık uyarısı</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+			</div> <!--haberler row -->
+			<div class="row"> <!--haberler row -->
+				<div class="col-md-4 mt-2">
+					<a href="haber/habericerik.html?spor?7" class="" title="" style="width: 100%;">
+						<div class="card " >
+							<div class="card-img">
+								<img src="haberimg/spor/7.jpg" style="width: 100%;">
+							</div>
+							<div class="card-body">
+								<a href="haber/spor.html" class="btn btn-danger " title="">Spor</a>
+								<div class="card-text mt-2">Bursa'da 3 puanın sahibi Trabzonspor</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+			</div> <!--haberler row -->
+			
+		</div> <!--haber kısmı id=sayfa4 -->
+
+		<div class="col-md-3 mt-2" >
+			<div class="encokokunan">
+				<h5 style="text-align: center;">En Çok Okunan Haberler </h5>
+				<table class="table">
+					<tr>
+						<td style="width:70%; ">
+							<a href="haber/habericerik.html?egitim?2">"Yükseköğretimde Dijital Dönüşüm Projesi"</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="haberimg/egitim/2.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr>
+						<td style="width:70%; ">
+							<a href="haber/habericerik.html?egitim?11">"40 dakika ders, 40 dakika teneffüs"</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="haberimg/egitim/11.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr>
+						<td style="width:70%; ">
+							<a href="haber/habericerik.html?dunya?3">Dicle Nehrinde Ceset</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="haberimg/dunya/3.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+					<tr style="border-bottom: 1px solid #dee2e6">
+						<td style="width:70%; ">
+							<a href="haber/habericerik.html?dunya?5">Yunanistan Başkanı Makedonyayı Ziyaret Etti</a>
+						</td>
+						<td style="width:30%; ">
+							<img src="haberimg/dunya/5.jpg" style="width: 100%; height: 12%;">
+						</td>
+					</tr>
+				</table>
+				<div class="mt-5">
+					<h5 style="text-align: center;">Döviz</h5>
+				</div>
+				<table class="table" style="font-size: 13px">
+
+					<tr>
+						<td style="width:40%; ">
+							GRAM ALTIN
+						</td>
+						<td style="width:60%;">
+							231,8907 <span style="color: green">% 0,15 &#9650</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							DOLAR
+						</td>
+						<td style="width:60%; ">
+							5,5807 <span style="color: green;">% 0,58 &#9650</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							EURO
+						</td>
+						<td style="width:60%; ">
+							6,2294 <span style="color: red;">% -0,63 &#9660</span>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:40%; ">
+							BIST 100
+						</td>
+						<td style="width:60%; ">
+							93.784 <span style="color: green">% 1,8062 &#9650</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+
+	</div> <!-- Body -->
+	<br>
+	<!-- Sayfalar -->
+	<div class="row">
+			<div class="col-md-12">
+				<ul class="nav-pills nav justify-content-center">
+					<li class="nav-item">
+						<a href="#sayfa1" onclick="smoothScroll(document.getElementById('slides'))" class="nav-link active" data-toggle="tab">1</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sayfa2" onclick="smoothScroll(document.getElementById('slides'))" class="nav-link" data-toggle="tab">2</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sayfa3" onclick="smoothScroll(document.getElementById('slides'))" class="nav-link" data-toggle="tab">3</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sayfa4" onclick="smoothScroll(document.getElementById('slides'))" class="nav-link" data-toggle="tab">4</a>
+					</li>
+				</ul>
+		 	</div>
+	</div> <!-- Sayfalar -->
+</div> <!-- Container -->
+
+
+
+
+<!--Footer Links-->
+<div class="bg-dark text-light mt-4" style="">
+	
+	<div class="container  mb-0 text-center text-md-left">
+	    <div class="row">
+
+	        <!--First column-->
+	        <div class=" col-lg-4 col-xl-4 mb-4 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>Hakkımızda</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+	            <p>Bizim için asıl önemli olan yapıcı, değerlere saygılı, din, dil, ırk ayrımı gözetmeden objektif ve yorumsuz haber vermektir. Yorumları uzmanlarından seyirciye aktarabilmektir. Tarafsız ve ilkeli habercilik, en önemlisi doğru haberdir.</p>
+	        </div>
+	        <!--/.First column-->
+
+	        <!--Second column-->
+	        <div class=" col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>Baglantılar</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+	            <p>
+	                <a href="#!">Gizlilik İlkeleri</a>
+	            </p>
+	            <p>
+	                <a href="#!">Kullanım Şartları</a>
+	            </p>
+	            <p>
+	                <a href="#!">Bilgi Toplumu Hizmetleri</a>
+	            </p>
+	            <p>
+	                <a href="#!">İlkeler</a>
+	            </p>
+	        </div>
+	        <!--/.Second column-->
+
+
+	        <!--Fourth column-->
+	        <div class=" col-lg-3 col-xl-3 mt-4">
+	            <h6 class="text-uppercase font-weight-bold">
+	                <strong>iletişim</strong>
+	            </h6>
+	            <hr class="deep-purple bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+	            <p>
+	                <i class="fas fa-home  mr-3"></i> Düzce,Türkiye</p>
+	            <p>
+	                <i class="fas fa-envelope mr-3"></i> info@webecho.com</p>
+	            <p>
+	                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+	            <p>
+	                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+	        </div>
+	        <!--/.Fourth column-->
+
+	    </div>
+	</div>
+</div>
+<!--/.Footer Links-->
+</body>
+</html>
+
+

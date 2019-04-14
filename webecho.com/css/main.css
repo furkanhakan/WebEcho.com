@@ -1,0 +1,252 @@
+
+.search{
+display: none;
+	position: fixed;
+	left: 0;
+	top: 82px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,0.8);
+	z-index: 1;
+	
+	
+}
+body{
+	
+}
+
+#x{
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	font-size: 30px;
+	transition: transform 1s;
+}
+#x:hover{
+	transition: transform 1s;
+	transform: rotate(180deg);
+	cursor: pointer;
+}
+.searchsm input[type=text]{
+	background-color: #dc3545;
+	position: absolute;
+	top: 502px;
+	left: 0;
+	width: 100%;
+	border-radius:5px 5px 10px 10px;
+	border-width: 0;
+	height: 50px;	
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 7px 80px 7px 20px;
+}
+
+.search input[type=text]{
+	background-color: white;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	border-radius:5px 5px 10px 10px;
+	border-width: 0;
+	height: 50px;	
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 7px 80px 7px 20px;
+}
+input[type=text]::-webkit-input-placeholder{
+	color:#540033;
+
+}
+
+
+
+@media screen and (min-width:200px) {
+
+	.nav-item hr{
+		width: 30px;
+		height: 1px;
+		margin-left: 0;
+		background-color: white;
+	}
+	li[title]{
+		border-bottom: 8px solid red;
+	}
+
+	
+
+
+}
+@media screen and (min-width:768px) {
+
+	.nav-item hr{
+		width: 1px; height: 20px; margin-top: 12px; background-color: white;
+	}
+
+}
+
+
+#linkler li:hover{
+  color: #ffffff;
+  
+
+}
+
+#linkler a {
+  text-align: center;
+}
+
+.border-3{
+	 border-width:3px !important;
+}
+li[title=gundem]:hover{
+	background-color: #343a40;
+}
+
+li[title=yasam]:hover{
+	background-color: #ffc107;
+}
+li[title=emlak]:hover{
+	background-color: #007bff;
+}
+li[title=teknoloji]:hover{
+	background-color: #6c757d;
+}
+
+
+li[title=spor]{
+	border-bottom:3px solid #339D00!important;
+}
+li[title=spor]:hover{
+	background-color: #339D00;
+}
+
+li[title=egitim]:hover{
+	background-color: #17a2b8;
+}
+
+li[title=saglik]:hover{
+	background-color: #28a745;
+}
+
+li[title=siyaset]{
+	border-bottom:3px solid #B64400!important;
+}
+li[title=siyaset]:hover{
+	background-color: #B64400;
+}
+
+li[title=dunya]{
+	border-bottom:3px solid #700E4C!important;
+}
+li[title=dunya]:hover{
+	background-color: #700E4C;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.haber-slides {
+  position: relative;
+  widows: 100%;
+
+
+}
+
+
+.geri, .ileri {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.ileri {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.geri:hover, .ileri:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .geri, .ileri,.text {font-size: 11px}
+}
+
+.card:hover .card-img{
+opacity: 0.8;
+}
+
+.haber-text{
+	position: absolute;
+	border:1px solid white;
+	background-color: white;
+	color: black;
+	text-align: center;
+	bottom: 100px;
+	left: 30px;
+	height: 35px;
+	overflow: hidden;
+	font-size: 20px;
+	box-shadow: 0px 0px 0px 2px white;
+}
+.haber-text-2{
+	position: absolute;
+	border:1px solid white;
+	background-color: white;
+	color: black;
+	text-align: center;
+	bottom: 45px;
+	left: 30px;
+	height: 35px;
+	overflow: hidden;
+	font-size: 20px;
+	box-shadow: 0px 0px 0px 2px white;
+}
+
+
