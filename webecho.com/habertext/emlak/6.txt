@@ -1,9 +1,0 @@
-Parsel, imar yasasýna göre ayrýlmýþ ve sýnýrlandýrýlmýþ arazi parçasýna verilen isimdir. Ada ise parsel üzerinde yer alan sokak, cadde, meydan, akarsu ya da demiryolu oluþumlarýna verilen bir isimdir. Ada parsel sorgulama iþlemini program üzerinden rahatlýkla yapabilirsiniz.
-
-<h1>Ada Parsel Sorgulama Programý</h1>
-Ada Parsel sorgulama programý ile Türkiye sýnýrlarý içinde yer alan arazilerin sorgulama iþlemini internet üzerinden yapmak mümkün. TKGM parsel sorgulama programý ile devlet dairelerine gitmeden tapu kadastro sorgulamasýný gerçekleþtirebilirsiniz. Tapu Kadastro Müdürlüðü (TKGM) internet sitesine giriþ yapanlarýn kullaným koþullarýný kabul etmesi gerekiyor.
-
-TKGM parsel sorgu iþlemini gerçekleþtirebilmek için öncelikle Tapu Kadastro Müdürlüðü internet sitesine girmeniz gerekiyor. TKGM parsel sorgu sayfasýnda karþýnýza kullaným koþullarý ekraný çýkacak. Bu ekranda çýkan kullaným koþullarýný kabul ederek ada parsel sorgulama iþlemine devam edebilirsiniz. Sol tarafta doldurmanýz gereken adres bilgileri, sað tarafta ise bir Türkiye haritasý ile karþýlaþacaksýnýz. Ýdari, coðrafi, adres ve analiz sekmeleri sayesinde aramanýzý özelleþtirebilirsiniz. Sorgulamak istediðiniz parselin enlem ve boylam bilgilerine sahipseniz çok daha hýzlý bir þekilde sorgulama yapabilirsiniz.
-
-<h1>e-Devlet’ten Parsel Sorgulama</h1>
-e-Devlet’ten TAKBÝS sistemini kullanarak parsel sorgulama iþlemini yine devlet dairelerine gitmeden yapabilirsiniz. e-Devlet üzerinden parsel sorgulama yapabilmek için öncelikle sisteme kaydolmanýz gerekiyor. Sistem üzerinde kaydýnýz varsa T.C. kimlik numarasý ile giriþ yapýp e-Hizmetler kategorisinden Tapu Kadastro Genel Müdürlüðü seçeneði, daha sonra ise Tapu Bilgileri Sorgulama linkine týklamanýz gerekiyor.

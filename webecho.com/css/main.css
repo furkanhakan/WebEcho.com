@@ -11,9 +11,31 @@ display: none;
 	
 	
 }
-body{
-	
+#image{
+
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 4px 4px 14px #000;
+-webkit-box-shadow: 4px 4px 14px #000;
+box-shadow: 4px 4px 14px #000;
 }
+iframe{
+margin-top: 20px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 4px 4px 14px #000;
+-webkit-box-shadow: 4px 4px 14px #000;
+box-shadow: 4px 4px 14px #000;
+
+
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+} 
+body{
+	background-color: #eff3f6;
+}
+
 
 #x{
 	position: absolute;
@@ -250,3 +272,31 @@ opacity: 0.8;
 }
 
 
+::-webkit-scrollbar{
+	width:15px;
+}html
+
+::-webkit-scrollbar-thumb{
+	background:-webkit-gradient(linear,left top,left bottom,from(#ff8a00),to(#da1b60));
+	background:linear-gradient(to bottom,#ff8a00,#da1b60);
+	border-radius:30px;
+	-webkit-box-shadow:inset 2px 2px 2px rgba(255,255,255,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+	box-shadow:inset 2px 2px 2px rgba(255,255,255,.25),inset -2px -2px 2px rgba(0,0,0,.25)
+}html
+
+::-webkit-scrollbar-track{
+	background:linear-gradient(to right,#383131,#383131 1px,#343a40 1px,#343a40)
+}
+
+.card ul{
+	list-style-type: none;
+
+
+}
+.card ul li{
+	float: left;
+	width: 25%;
+}
+.sosyal div{
+	float: left;
+}

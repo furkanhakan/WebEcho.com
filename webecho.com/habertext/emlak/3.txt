@@ -1,9 +1,0 @@
-Teknolojinin geliþmesiyle birlikte devlet dairesinde yapacaðýmýz iþlemler de kolaylaþtý. e-Devlet gibi siteler sayesinde evimizden çýkmadan pek çok iþi halledebiliyoruz. Peki, MERNÝS nedir, MERNÝS adresi nedir? Merkezi Nüfus Ýdare Sistemi veya kýsaca MERNÝS, kimlik bilgileri veya ikamet adresleri gibi birçok iþlemi yapmamýzý saðlýyor. MERNÝS, nüfus bilgilerinin teknolojik ortama aktarýlarak daha iyi hizmet saðlamak amacýyla kuruldu. Böylece her vatandaþa özel T.C. kimlik numarasý verildi. MERNÝS’te kiþinin nüfus bilgileri, ailesine ait bilgileri ve adres bilgileri yer alýyor. Tüm bu bilgilere e-Devlet üzerinden ulaþabilirsiniz ve yapmak istediðiniz iþlemleri yine e-Devlet üzerinden tamamlayabilirsiniz.
-
-<h1>MERNÝS Adresi Nedir?</h1>
-MERNÝS adresi bir nevi her vatandaþa verilen T.C. kimlik numarasýdýr. Merkezi Nüfus Ýdare Sisteminin kurulmasýyla birlikte Türkiye Cumhuriyeti vatandaþlarýna 11 haneli kimlik numaralarý atandý. Bu numaralar ile kimliðiniz yanýnýzda olmasa dahi iþlemlerinizi gerçekleþtirebiliyorsunuz. MERNÝS sayesinde aile kütük bilgilerini nüfus dairelerine gitmeden öðrenebilir, ikamet bilgilerine kolayca eriþebilirsiniz.
-
-Adrese dayalý bir kayýt hizmeti sunan bu uygulama, Gelir Ýdaresi Baþkanlýðý’nýn veri tabanýna da entegre edilmiþtir. Bu yüzden emlak gelir vergisi beyannamesi nasýl doldurulur diye soran kiþiler öncelikle adres bilgilerini otomatik olarak Mernis üzerinden alabilirler.
-
-<h1>MERNÝS Adresi Nasýl Bulunur?</h1>
-e-Devlet þifresi veya internet bankacýlýðý þifresi ile sisteme giriþ yaptýktan sonra MERNÝS adresini kolayca öðrenebilirsiniz. MERNÝS adres sorgulama iþlemlerini site üzerinden gerçekleþtirebilirsiniz.
