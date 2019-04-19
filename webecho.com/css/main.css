@@ -300,3 +300,13 @@ opacity: 0.8;
 .sosyal div{
 	float: left;
 }
+
+.kunye{
+	list-style-type: none;
+	
+}
+.kunye .title{
+	color: red;
+margin-top: 30px;
+font-size: 25px;
+}
