@@ -13,3 +13,6 @@
 ::-webkit-scrollbar-track{
 	background:linear-gradient(to right,#383131,#383131 1px,#343a40 1px,#343a40)
 }
+body{
+	background-color: white;
+}
