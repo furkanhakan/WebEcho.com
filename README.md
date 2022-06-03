@@ -1,4 +1,4 @@
 # WebEcho.com
 Web Tasarım Projesi
 
-Site Linki : http://webecho.22web.org
+Site Linki : https://furkanhakan.github.io/WebEcho.com/index.html
